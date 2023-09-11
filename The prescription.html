@@ -1,0 +1,13 @@
+let test = 6
+
+function factorial(n) {
+
+    if (n < 0) {
+        console.log('No negative integers')
+        return
+    }
+
+    return !n ? 1 : n * factorial(n - 1)
+}
+
+console.log(factorial(test))
